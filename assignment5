@@ -1,0 +1,13 @@
+n = int(input("Enter the number of students: "))
+total_average = 0
+for i in range(1, n + 1):
+total = 0
+print("Enter scores for Student", i)
+for j in range(1, 6):
+score = float(input("Enter score for Test " + str(j) + ": "))
+total = total + score
+average = total / 5
+print("Average of Student", i, "=", average)
+total_average = total_average + average
+overall_average = total_average / n
+print("Overall class average =", overall_average)
