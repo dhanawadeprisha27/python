@@ -1,0 +1,6 @@
+substring = input("Enter the secret message (substring): ")
+string = input("Enter the coded message (string): ")
+if substring in string:
+print("Secret message found!")
+else:
+print("Secret message not found!")
