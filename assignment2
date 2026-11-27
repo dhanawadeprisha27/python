@@ -1,0 +1,10 @@
+try:
+earth = 9.8
+moon = 1.6
+mass = float(input("enter the mass in kg: "))
+weight1 = mass * earth
+weight2 = mass * moon
+print("weight on earth =", weight1, "N")
+print("weight on moon =", weight2, "N")
+except:
+print("please enter a valid number")
