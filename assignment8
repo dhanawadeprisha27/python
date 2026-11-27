@@ -1,0 +1,21 @@
+import math
+
+def calculate_area(radius):
+    return math.pi * radius * radius
+
+def calculate_area_rectangle(Length, breadth):
+    return Length * breadth
+
+def calculate_area_triangle(base, height):
+    return 0.5 * base * height
+
+radius = float(input("Enter radius of circle: "))
+print("Area of circle =", calculate_area(radius))
+
+length = float(input("Enter length of rectangle: "))
+breadth = float(input("Enter breadth of rectangle: "))
+print("Area of rectangle =", calculate_area_rectangle(length, breadth))
+
+base = float(input("Enter base of triangle: "))
+height = float(input("Enter height of triangle: "))
+print("Area of triangle =", calculate_area_triangle(base, height))
