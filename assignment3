@@ -1,0 +1,6 @@
+assignments=['python','dsa','english',
+'maths']
+print("Assignments:",assignments)
+assignments.append("java")
+assignments.remove("dsa")
+print("Updated assignments:",assignments)
